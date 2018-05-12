@@ -9,7 +9,7 @@
 	<packaging>jar</packaging>
 
 	<name>hibernate-tutorial</name>
-	<description>Hibernate mapping tutorial with H2 database</description>
+	<description>MapStruct mapping tutorial with H2 database</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -51,7 +51,7 @@
 
 			<dependency>
 				<groupId>org.mapstruct</groupId>
-				<artifactId>mapstruct</artifactId> <!-- use mapstruct-jdk8 for Java 8 or higher -->
+				<artifactId>mapstruct-jdk8</artifactId> <!-- use mapstruct-jdk8 for Java 8 or higher -->
 				<version>${org.mapstruct.version}</version>
 			</dependency>
 	</dependencies>
